@@ -4,7 +4,7 @@ public class Truck extends Vehicle {
     private String fuelType;
 
     public Truck() {
-        super("Truck", 10, 120, 3);
+        super("Грузовик", 10, 120, 3);
         tonnage = 20;
         fuelType = "Дизельное топливо";
     }

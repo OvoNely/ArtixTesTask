@@ -4,7 +4,7 @@ public class AirLiner extends Aircraft{
     private String company;
 
     public AirLiner() {
-        super("Airliner", 950, 160, 5400);
+        super("Авиалайнер", 950, 160, 5400);
         model = "Boing 737-800";
         company = "Lufthansa";
     }
