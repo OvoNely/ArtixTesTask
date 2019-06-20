@@ -10,6 +10,7 @@ public class Main {
             }
         } else {
             System.out.println("Не введено ни одного аргумента");
+            return;
         }
 
         TransportCreator tc = new TransportCreator();
